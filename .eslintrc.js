@@ -13,4 +13,17 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  plugins: ['react', 'jest'],
+  rules: {
+    indent: ['error', 2],
+    'linebreak-style': 0,
+    quotes: ['error', 'single'],
+    semi: 0,
+    eqeqeq: 'error',
+    'no-trailing-spaces': 'error',
+    'object-curly-spacing': ['error', 'always'],
+    'arrow-spacing': ['error', { before: true, after: true }],
+    'no-console': 'error',
+    'react/prop-types': 0,
+  },
 };
