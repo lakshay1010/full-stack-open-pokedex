@@ -9,6 +9,10 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
     ecmaVersion: 2018,
     sourceType: 'module',
