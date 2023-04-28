@@ -23,3 +23,12 @@ Start by running `npm install` inside the project folder
 > To set up Node.js, actions/setup-node action can be used.
 
 > the with keyword is used to give a "parameter" to the action
+
+- https://eslint.org/docs/latest/rules/linebreak-style
+- https://stackoverflow.com/questions/37826449/expected-linebreaks-to-be-lf-but-found-crlf-linebreak-style
+- https://eslint.org/docs/latest/rules/semi
+
+I have modified two rules to not be checked:
+
+1. linebreaks (as I'm working on a windows machine)
+2. semicolons (as these are annoying)
